@@ -16,18 +16,11 @@ enum Country {
     Hungary,
     Russia,
     Denmark,
-<<<<<<< HEAD
     Germany,
     Norway
 }
 
 interface User {
-=======
-    Germany
-}
-
-class User {
->>>>>>> 00c755ac56d17ed7e466666876616d4c445ba013
     id: number;
     userName: string;
     firstName: string;
@@ -39,7 +32,6 @@ class User {
 class UserService {
     private users: Array<User>
 
-<<<<<<< HEAD
     public addUser(newUser: User): void {
         const user = this.users.find(x => x.userName === newUser.userName)
         if (user) return
@@ -63,11 +55,6 @@ class UserService {
         this.users[userIndex].lastName = user.lastName;
         this.users[userIndex].country = user.country;
     }
-=======
-    public addUser(user: User): void {
-        this.users.push(user);
-    }
->>>>>>> 00c755ac56d17ed7e466666876616d4c445ba013
 }
 
 const userService = new UserService();
