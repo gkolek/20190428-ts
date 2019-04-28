@@ -16,7 +16,8 @@ enum Country {
     Hungary,
     Russia,
     Denmark,
-    Germany
+    Germany,
+    Norway
 }
 
 interface User {
