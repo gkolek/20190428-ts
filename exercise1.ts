@@ -36,10 +36,12 @@ let _undefined: undefined = undefined
 
 let companyName = 'InfoShare';
 
-let userName: number = 'super-user';
-let userExists: string = true;
+let userName: string = 'super-user';
+let userExists: boolean = true;
 let count = +"30";
 
-let values: Array<number> = [1, 2, 3, "4", 5];
+let count1 = "20";
+
+let values: Array<number> = [1, 2, 3, 4, 5];
 
 //todo: popraw bledy zwiazane ze zlym typowaniem
